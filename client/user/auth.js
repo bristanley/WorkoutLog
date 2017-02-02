@@ -64,7 +64,7 @@ $(function(){
 						$(".disabled").removeClass("disabled");
 						$("#loginout").text("Logout");
 					}).fail(function(){
-						$("#li_error").text("There was an issue with sign up").show();
+						$("#li_error").text("There was an issue with log in").show();
 					});
 		},
 		//loginout method
